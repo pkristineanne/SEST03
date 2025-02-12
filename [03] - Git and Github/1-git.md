@@ -66,6 +66,3 @@ git log
 ```bash
 git log --oneline
 ```
-
-This is a problematic change.
-This contains bugs/errors.
