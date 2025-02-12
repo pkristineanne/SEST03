@@ -24,3 +24,12 @@ U - untrack - not tracking the changes in the file
 - Reduce the risk of losing progress
 - commit message - what we accomplish - descriptive
 # Commit Hash - unique automated set of characters / ID
+# Reverting a Commit
+ - Reverts a commit to its previous state
+ - New Commit that undo teh changes
+ - Preserve the original commit
+ # Resetting a Commit
+ - Moves the pointer to an earler point
+ - removes commits from the branch
+ - can permanently delete changes
+ 
