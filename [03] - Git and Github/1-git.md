@@ -33,3 +33,36 @@ git init
 - U : Untracked
 - A : Added
 - M : Modified
+
+# Git Three Stage Architecture
+
+1. Check the status of all files and folders.
+
+```bash
+git status
+```
+
+2. Add modified files to the staging area.
+
+```bash
+# Add all the modified files.
+git add .
+# Add a specific file
+git add [destination_path]
+```
+
+3. Create a commit
+
+```bash
+git commit -m "[commit_message]"
+```
+
+4. Show commit history
+
+```bash
+git log
+```
+
+```bash
+git log --oneline
+```
