@@ -46,3 +46,11 @@ What is Master/Main Branch?
   What is merging brancges
   - combines one branch into another
   - if the functionality is ok, we can merge this branch to the main branch so that it can be avaiable to the users.
+
+  Remote Repositories - it lives on cloud such as git hub server.
+  How  to create?
+  - we have a local repository
+  - create a git hub
+  - upload the local to the remote (like uploading it to gdrive ect.)
+  - Push (upload) - local to remote
+  - Pull (download) -remote to local
