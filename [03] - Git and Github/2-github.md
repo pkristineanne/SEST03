@@ -30,3 +30,14 @@ git push -u origin main
 ```bash
 git push
 ```
+
+8. To show All branches (local and remote)
+```bash
+git branch -a
+```
+
+9. Cloning
+```bash
+git clone [url from github]
+```
+

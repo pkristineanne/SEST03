@@ -61,3 +61,12 @@ U - untrack - not tracking the changes in the file
 
   # What is Cloning?
   - Local version of a remote repository 
+
+  #What is Forking?
+  - Used for collaborating in projects
+  - you will modify others' branch/main
+  - Process
+   1. create your own branch first
+   2. once done in modifications, Submit a Pull Request
+       - Pull Request -  subject for code review, for testing and debugging
+   3. If they approves, they will accept and it will merge your code to the main. 
