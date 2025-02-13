@@ -58,3 +58,6 @@ U - untrack - not tracking the changes in the file
   - upload the local to the remote (like uploading it to gdrive ect.)
   - Push (upload) - local to remote
   - Pull (download) -remote to local
+
+  # What is Cloning?
+  - Local version of a remote repository 
