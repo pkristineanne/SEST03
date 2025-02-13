@@ -2,8 +2,10 @@
 - version 1,2, etc. - going back to different version of the design. 
 - keeps track of the changes
 - undo mistakes
+
 # Git 
 - a version control system. Records updates and changes. Revert back to different versions. Collaborate with other developers.
+
 # Repositories 
 - Container of the project 
 - special type of folder
@@ -18,11 +20,13 @@ U - untrack - not tracking the changes in the file
 - what did modify - preparation stage
 - green text
 3. Commit Stage - think of it as version of the project or check point 
+
 # Commit
 - Snapshots of different stages
 - Tou can go back to these snapshots
 - Reduce the risk of losing progress
 - commit message - what we accomplish - descriptive
+
 # Commit Hash - unique automated set of characters / ID
 # Reverting a Commit
  - Reverts a commit to its previous state
@@ -35,19 +39,19 @@ U - untrack - not tracking the changes in the file
  # Git Init = git initiazile
  Why is it called tree? 
   - think of it as growing plant
-What is Branching? 
-What is Master/Main Branch? 
- - Stable version of your code
- - Branch that is published
- What is an additional branch?
+ # What is Branching? 
+ # What is Master/Main Branch? 
+  - Stable version of your code
+  - Branch that is published
+ # What is an additional branch?
   - Isolated environment
   - Will not affect the master branch
   - if we want to create a new functionality, we don't want to affect the main branch for bugs or error. 
-  What is merging brancges
+ # What is merging brancges
   - combines one branch into another
   - if the functionality is ok, we can merge this branch to the main branch so that it can be avaiable to the users.
 
-  Remote Repositories - it lives on cloud such as git hub server.
+ # Remote Repositories - it lives on cloud such as git hub server.
   How  to create?
   - we have a local repository
   - create a git hub
