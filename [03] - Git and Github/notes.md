@@ -32,4 +32,17 @@ U - untrack - not tracking the changes in the file
  - Moves the pointer to an earler point
  - removes commits from the branch
  - can permanently delete changes
- 
+ # Git Init = git initiazile
+ Why is it called tree? 
+  - think of it as growing plant
+What is Branching? 
+What is Master/Main Branch? 
+ - Stable version of your code
+ - Branch that is published
+ What is an additional branch?
+  - Isolated environment
+  - Will not affect the master branch
+  - if we want to create a new functionality, we don't want to affect the main branch for bugs or error. 
+  What is merging brancges
+  - combines one branch into another
+  - if the functionality is ok, we can merge this branch to the main branch so that it can be avaiable to the users.
