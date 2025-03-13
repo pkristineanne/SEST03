@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units of Measurement</title>
+    <style>
+      /* Absolute Unit px - pixel */
+      #absolute-unit-px {
+        font-size: 16px; /* Default */
+        font-size: 20px;
+      }
+
+      #relative-unit-em {
+        /* Relative to the font-size of the parent element */
+        font-size: 3em;
+      }
+
+      #relative-unit-rem {
+        /* Relative to the font-size of the root element (html) */
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Units of Measurement</h1>
+    <p id="absolute-unit-px">Absolute Unit (px)</p>
+    <div style="font-size: 20px">
+      <p id="relative-unit-em">Relative Unit (em)</p>
+      <p id="relative-unit-rem">Relative Unit (rem)</p>
+    </div>
+    <div id="parent-box">
+      <div class="child-box relative-unit-percent">Relative Unit (%)</div>
+      <div class="child-box relative-unit-view-width">Relative Unit (vw)</div>
+      <div class="child-box relative-unit-view-height">Relative Unit (vh)</div>
+    </div>
+  </body>
+</html>

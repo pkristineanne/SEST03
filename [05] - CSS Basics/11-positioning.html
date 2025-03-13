@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        /* Static Positioning: follow the normal document flow */
+        /* - render each element line by line */
+
+        #parent {
+            position: static;
+            border: 2px solid #ad1457;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        #example-content {
+            height: 200px;
+            background-color: #f4a261;
+            color: white;
+            font-size: 2rem;
+            border: 2px solid #264653;
+        }
+
+        /* Relavtive Positioning */
+        /* Relative to the original position of the element. */
+        /* Access: top, right, bottom, left */
+        #relative {
+            background-color: #ffc6ff;
+            color: white;
+            /* position: static; default */
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        /* Absolute Positioning */
+        /* Element will be removed from the normal document flow */
+        /* Access: top, right, left, bottom */
+        /* 1. Relative to viewport if the parents position is set to static. */
+        /* 2. Relative to the parent if the parents position is NOT static. */
+        #absolute {
+            background-color: #caffbf;
+            color: #185d8b;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        
+        /* Fixed Positioning */
+        /* it will stay on its original position even when you scroll */
+        /* Remove the element from the normal document flow */
+         /* Access: top, right, bottom, left */
+         /* Relative to the viewport */
+        #fixed {
+            background-color: #deeae8;
+            color:#185d8b;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        /* Sticky Positioning */
+        /* Remove the element from the normal document flow */
+         /* Access: top, right, bottom, left */
+         /* Relative to the viewport */
+         /* commonly used for announcement. */
+         
+        #sticky {
+            background-color: #0f3a57;
+            color: #f5d3c5;
+            position: sticky;
+            top: 0px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS Positioning</h1>
+    <div id="parent">
+        <div>This is the first div</div>
+        <div>This is the second div</div>
+        <div id="relative">Relative Positioning</div>
+        <div id="absolute">Absolute Positioning</div>
+        <div id="fixed">Fixed Positioning</div>
+    </div>
+    <div id="sticky">Sticky Positioning</div>
+    <div id="example-content">Example Content</div>
+</body>
+</html>
